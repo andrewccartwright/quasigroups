@@ -1,0 +1,25 @@
+#results {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#user-input-section {
+    float: left;
+    margin-left: 2vw;
+}
+
+#output-section {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: right;
+}
+
+.results-paragraph {
+    font-weight: bold;
+    padding-top: 30px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}

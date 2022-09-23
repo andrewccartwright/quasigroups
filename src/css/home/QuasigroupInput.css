@@ -1,0 +1,56 @@
+#submit-btn {
+    margin-top: 2vh;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#permutation-section {
+    margin-top: 5vh;
+}
+
+#order-input-section {
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+#order-error-message {
+    color: red;
+    display: none;
+}
+
+.table-input, .table-cell {
+    line-height: 5vh;
+    width: 4vw;
+    text-align: center;
+    font-size: 24px;
+}
+
+.table-input {
+    border: none;
+}
+
+.row-headers {
+    padding-right: 10px;
+}
+
+.quasigroup {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid black;
+    height: 5vh;
+    padding: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}

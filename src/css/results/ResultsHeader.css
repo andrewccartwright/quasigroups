@@ -1,0 +1,13 @@
+#results-header {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}

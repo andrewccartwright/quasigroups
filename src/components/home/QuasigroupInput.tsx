@@ -51,7 +51,7 @@ const QuasigroupInput = (props: {size: number, setSize: Function, translation: b
         let input = target.value;
         const regex = /[1-9]/;
 
-        if (input.match(regex) && Number(input) <= maxSize) {
+        if (input.match(regex) && Number(input) <= maxSize && Number(input) > 0) {
             setSize(Number(target.value));
             document.getElementById('order-error-message')!.style.display = 'none';
         }
@@ -63,7 +63,7 @@ const QuasigroupInput = (props: {size: number, setSize: Function, translation: b
     return (
         <form className='quasigroup' onSubmit={handleSubmit}>
             <div id='order-input-section'>
-                <label id='order-input-label' htmlFor='order-input'>Order: <input id="order-input" type='text' min={'0'} defaultValue={size} onChange={handleOrderInput} /></label>
+                <label id='order-input-label' htmlFor='order-input'>Order: <input id="order-input" type='text' min={0} defaultValue={size} onChange={handleOrderInput} /></label>
                 <p id='order-error-message' className='error-message' >Please enter an integer value less than or equal to {maxSize}.</p>
             </div>
             <label htmlFor='quasigroup-table'>Enter the Cayley table:</label>

@@ -64,7 +64,7 @@ const QuasigroupInput = (props: {size: number, setSize: Function, translation: b
         <form className='quasigroup' onSubmit={handleSubmit}>
             <div id='order-input-section'>
                 <label id='order-input-label' htmlFor='order-input'>Order: <input id="order-input" type='text' min={0} defaultValue={size} onChange={handleOrderInput} /></label>
-                <p id='order-error-message' className='error-message' >Please enter an integer value less than or equal to {maxSize}.</p>
+                <p id='order-error-message' className='error-message' >Please enter a positive integer value less than or equal to {maxSize}.</p>
             </div>
             <label htmlFor='quasigroup-table'>Enter the Cayley table:</label>
             <table id='quasigroup-table'>

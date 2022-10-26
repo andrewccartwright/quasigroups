@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quasigroups/static/css/main.712dfcf7.css",
-    "main.js": "/quasigroups/static/js/main.9ddcf54f.js",
+    "main.js": "/quasigroups/static/js/main.f166db00.js",
     "static/js/787.72b2844d.chunk.js": "/quasigroups/static/js/787.72b2844d.chunk.js",
     "index.html": "/quasigroups/index.html",
     "main.712dfcf7.css.map": "/quasigroups/static/css/main.712dfcf7.css.map",
-    "main.9ddcf54f.js.map": "/quasigroups/static/js/main.9ddcf54f.js.map",
+    "main.f166db00.js.map": "/quasigroups/static/js/main.f166db00.js.map",
     "787.72b2844d.chunk.js.map": "/quasigroups/static/js/787.72b2844d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.712dfcf7.css",
-    "static/js/main.9ddcf54f.js"
+    "static/js/main.f166db00.js"
   ]
 }

@@ -9,9 +9,16 @@ const Home = (props: {translation: boolean, setTranslation: Function, setPermut:
 
     const state = useLocation().state;
 
-    if (state) {
-        console.log(state);
+    const setDefaultValues = () => {
+        let quasigroupValues = state.quasigroup;
+        
     }
+
+    if (state) {
+        setDefaultValues();
+    }
+
+    
 
     return (
         <div>
